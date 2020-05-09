@@ -1,0 +1,186 @@
+/*--- New Font ---*/
+@font-face {
+    font-family: asianHiro;
+    src: url(fonts/aAsianHiro.otf);
+}
+/*--- Reset ---*/
+html, body {
+    height: 100%;
+    width: 100%;
+}
+/*--- Navbar ---*/
+.navbar-custom {
+    background: rgb(105,65,66); background: linear-gradient(0deg, rgba(105,65,66,0) 40%, rgba(0,0,0,1) 100%);
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+} 
+.custom-toggler.navbar-toggler {
+    border-color: white;
+} 
+.navbar {
+    padding: .8rem;
+}
+.navbar-nav li {
+    padding-right: 20px;
+}
+.navbar-nav .nav-item .nav-link {
+    color: black;
+    font-weight: bold;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.nav-link {
+    font-size: 1.1em !important;
+}
+/*--- Jumbotron ---*/
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+    height: 100px;
+    margin-bottom: 0;
+}
+/*--- Padding ---*/
+.padding {
+    padding-bottom: 2rem;
+}
+/*--- Welcome ---*/
+.welcome {
+    width: 85%;
+    margin: 0 auto;
+}
+.welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+.display-4 {
+    font-family: asianHiro;
+    color: white;
+}
+.display-4-connect {
+    font-family: asianHiro;
+    color: white;
+}
+.menu-attention {
+    background-image: url("img/food.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    height: 200px;
+    min-height: 300px;
+    min-width: 285px;
+    max-width: 450px;
+}
+.menu-attention-text {
+    font-family: asianHiro;
+    color: white;
+    font-size: 160%;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+/*--- Connect ---*/
+.social a {
+    font-size: 4.5em;
+}
+.fa-facebook-official {
+    color: #3B5998;
+}
+.fa-facebook-official:hover {
+    color: #d5d5d5;
+}
+/*--- Accordion Menu ---*/
+.accordion {
+    color: white;
+    background-color: grey;
+    max-width: 700px;
+    margin-bottom: 12px;
+}
+.accordion .card {
+    background-color: #3f3f3f;
+}
+.menu-text-main {
+    color: white;
+    text-decoration: none;
+    font-size: 25px
+}
+.menu-text-item {
+    padding: 10px;
+    font-size: 20px;
+}
+.menu-text-small {
+    font-size: 75%;
+}
+/*--- Footer ---*/
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+footer a {
+    color: #d5d5d5;
+}
+hr.light-100 {
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+/*--- Backgrounds ---*/
+.background-sushi {
+    background-image: url("img/sushi_banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*min-width: 576px;*/
+    background-color: #690002
+}
+.background-cherry {
+    background-image: url("img/unnamed.png");
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
+    background-color: #690002;
+}
+/*--- About Us ---*/
+.about-us-text {
+    color: white;
+    text-indent: 50px;
+    background-color: #690002;
+}
+/*--- Contact Us ---*/
+.contact-text {
+    color: white;
+    background-color: #690002;
+    font-size: 150%;
+}
+.contact-header {
+    color: white;
+    background-color: #690002;
+}
+/*--- Media Queries ---*/
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+    .display-4-connect {
+        font-size: 200%;
+    }
+}
+@media (max-width: 576px) {
+    .display-4-connect {
+        font-size: 160%;
+    }
+    /*.jumbotron {
+        display: none;
+    }*/
+}
+
+
+/*--- Bootstrap Padding Fix ---*/
+[class*="col-"] {
+    padding: 1rem;
+}
